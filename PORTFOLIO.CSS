@@ -1,0 +1,317 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    align-items: center;
+    background-color: tomato;
+    display: flex;
+    padding: 30px;
+}
+
+.navLinks {
+    list-style: none;
+    display: flex;
+}
+
+.navLinks li {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 10px;
+    font-size: 16px;
+}
+
+.navLinks a {
+    text-decoration: none;
+    color: white;
+}
+
+.navLinks a:hover {
+    color: yellow;
+}
+
+.title {
+    flex: 1;
+    margin-left: 350px;
+}
+
+.title ul {
+    list-style: none;
+}
+
+.title li {
+    font-size: 30px;
+    font-family: 'Kaushan Script';
+}
+
+.title a {
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    flex: 1;
+}
+
+.introduction {
+    position: absolute;
+    top: 300px;
+    left: 500px;
+}
+
+.introduction h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-style: italic;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+
+.introduction h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 75px;
+    margin-bottom: 30px;
+}
+
+.introduction button {
+    margin-left: 350px;
+    padding: 20px;
+    border-radius: 50px;
+    border: 1.5px solid white;
+    background-color: yellow;
+}
+
+.about, 
+#aboutMe {
+    position: absolute;
+    top: 850px;
+    left: 350px;
+}
+
+.about h3 {
+    font-size: 40px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    margin-left: 510px;
+    margin-bottom: 10px;
+}
+
+.about h5 {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 300;
+    margin-left: 470px;
+}
+
+#aboutMe {
+    display: flex;
+}
+
+.fLearner,
+.committed, 
+.aDetails {
+    margin-top: 200px;
+    justify-content: space-evenly;
+    font-family: 'Open Sans Condensed';
+    align-items: center;
+    font-size: 22px;
+    font-weight: 100;
+}
+
+.fLearner {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.committed {
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 100px;
+}
+
+.aDetails {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.portfolio,
+#pFolio {
+    position: absolute;
+    top: 1300px;
+    margin-top: 100px;
+}
+
+.portfolio h3 {
+    font-size: 40px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    margin-left: 800px;
+    margin-bottom: 10px;
+}
+
+.portfolio h5 {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 300;
+    margin-left: 820px;
+}
+
+#pFolio {
+    margin-top: 250px;
+    margin-left: 320px;
+    margin-bottom: 50px;
+}
+
+.row1,
+.row2 {
+    display: flex;
+}
+
+.row1 {
+    margin-bottom: 50px;
+    padding: 10px 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.row2 {
+    margin-bottom: 50px;
+    padding: 10px 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.first,
+.second,
+.third {
+    font-size: 20px;
+    font-family: 'Montserrat';    
+    border: 1px solid white;
+    padding: 20px 50px;
+    color: rgb(58, 57, 57);
+}
+
+.fourth,
+.fifth,
+.sixth {
+    font-size: 20px;
+    font-family: 'Montserrat';    
+    border: 1px solid white;
+    padding: 20px 50px;
+    color: rgb(58, 57, 57);
+}
+
+.first {
+    padding: 30px 50px;
+}
+
+.first:hover {
+    background-color: rgba(255, 184, 52, 0.541);
+}
+
+.second {
+    padding: 30px 97px;
+}
+
+.second:hover {
+    background-color: rgba(255, 184, 52, 0.541);
+}
+
+.third {
+    padding: 30px 90px;
+}
+
+.third:hover {
+    background-color: rgba(255, 184, 52, 0.541);
+}
+
+.fourth {
+    padding: 30px 57px;
+}
+
+.fourth:hover {
+    background-color: rgba(255, 184, 52, 0.541);
+}
+
+.fifth {
+    padding: 30px 50px;
+}
+
+.fifth:hover {
+    background-color: rgba(255, 184, 52, 0.541);
+}
+
+.sixth {
+    padding: 30px 50px;
+}
+
+.sixth:hover {
+    background-color: rgba(255, 184, 52, 0.541);
+}
+
+.second,
+.fifth {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.first h5,
+.second h5,
+.third h5,
+.fourth h5,
+.fifth h5,
+.sixth h5 {
+    font-style: italic;
+    color: rgb(58, 57, 57);
+}
+
+.skills,
+#mySkills {
+    position: absolute;
+    top: 2000px;
+}
+
+.skills {
+    margin-left: 50px;
+}
+
+.skills h3 {
+    font-size: 40px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    margin-left: 800px;
+    margin-bottom: 10px;
+}
+
+.skills h5 {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 300;
+    margin-left: 600px;
+}
+
+#mySkills {
+    margin-top: 150px;
+}
+
+.fEnd {
+    margin-left: 500px;
+    text-align: right;
+}
+
+.fEnd h3 {
+    font-size: 30px;
+    font-family: 'Montserrat';
+}
+
+.fEnd p {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.712);
+}
+
+
+
+
